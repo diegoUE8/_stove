@@ -1,0 +1,159 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Ring Chair",
+      "likes": 82,
+      "added": false,
+      "ar": "models/chair_swan.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "grigio.hdr",
+      "items": [
+        {
+          "id": 31,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "stove/",
+          "gltfFile": "stove.glb"
+        },
+        {
+          "id": 32,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": "./img/RingChair.png"
+        },
+        {
+          "id": 34,
+          "type": "text",
+          "title": "Dining Chairs",
+          "abstract": "Contemporary, classical, vintage and modern Italian seating solutions",
+          "description": "Ring Chair by Giovannetti takes inspiration from Modern Art: its shapes area clear homage to Henry Moore"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Andromeda Sideboard",
+      "likes": 43,
+      "added": false,
+      "ar": "models/ariannasoldati.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "grigio.hdr",
+      "items": [
+        {
+          "id": 41,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "ariannasoldati/",
+          "gltfFile": "ariannasoldati.glb"
+        },
+        {
+          "id": 42,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": "./img/ariannasoldati.png"
+        },
+        {
+          "id": 43,
+          "type": "text",
+          "title": "Credenzas & Sideboards",
+          "abstract": "Contemporary, classical, vintage and modern Italian storage solutions",
+          "description": "Andromeda Sideboard by Ariannasoldati is a modern piece of Italian design. It comes with four doors available in different finishes."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Filicudi Bed",
+      "likes": 52,
+      "added": false,
+      "ar": "models/chair_swan.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "grigio.hdr",
+      "items": [
+        {
+          "id": 11,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "barel/",
+          "gltfFile": "barel2.gltf"
+        },
+        {
+          "id": 13,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": "./img/barel.jpg"
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "title": "Filicudi Bed",
+          "abstract": "Contemporary, classical, vintage and modern Italian bedroom furniture.",
+          "description": "Filicudi Bed by Ironwork by Barel is a modern Italian bed. Structure made of forged solid iron elements, available in various finishes. "
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Time Sofa",
+      "likes": 146,
+      "added": false,
+      "ar": "models/oak.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "grigio.hdr",
+      "items": [
+        {
+          "id": 21,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "oak/",
+          "gltfFile": "oak.glb"
+        },
+        {
+          "id": 22,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": "./img/oak.png"
+        },
+        {
+          "id": 23,
+          "type": "text",
+          "title": "Sofa",
+          "abstract": "Contemporary, classical, vintage and modern Italian sofa solutions.",
+          "description": "Sofa by Fratelli Boffi belongs to The Lobby collection designed by Christophe de la Fontaine."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Vittoria Chair",
+      "likes": 372,
+      "added": false,
+      "ar": "models/riflessi.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "grigio.hdr",
+      "items": [
+        {
+          "id": 21,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "riflessi/",
+          "gltfFile": "riflessi.glb"
+        },
+        {
+          "id": 22,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": "./img/riflessi.jpg"
+        },
+        {
+          "id": 23,
+          "type": "text",
+          "title": "Forniture",
+          "abstract": "Contemporary, classical, vintage and modern Italian pieces of furniture.",
+          "description": "Vittoria Chair by Riflessi is a fully upholstered elegant chair with a modern Italian design."
+        }
+      ]
+    }
+  ]
+}
