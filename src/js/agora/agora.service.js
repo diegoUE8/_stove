@@ -148,12 +148,12 @@ export default class AgoraService extends Emittable {
 				});
 			});
 			// !!! require localhost or https
-			this.detectDevices((devices) => {
+			/*this.detectDevices((devices) => {
 				// console.log(devices);
 				const cameraId = devices.videos.length ? devices.videos[0].deviceId : null;
 				const microphoneId = devices.audios.length ? devices.audios[0].deviceId : null;
 				this.createLocalStream(uid, microphoneId, cameraId);
-			});
+			});*/
 		}, (error) => {
 			console.log('Join channel failed', error);
 		});
