@@ -77,7 +77,7 @@ export class ModelViewerComponent extends Component {
 		renderer.setPixelRatio(window.devicePixelRatio);
 		renderer.setSize(container.offsetWidth, container.offsetHeight);
 		renderer.toneMapping = THREE.ACESFilmicToneMapping;
-		renderer.toneMappingExposure = 0.5;
+		renderer.toneMappingExposure = 0.6;
 		renderer.outputEncoding = THREE.sRGBEncoding;
 		if (container.childElementCount > 0) {
 			container.insertBefore(renderer.domElement, container.children[0]);
