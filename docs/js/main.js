@@ -331,7 +331,7 @@
       }
 
       this.loadData();
-      //this.checkCamera();
+      this.checkCamera();
     };
 
     _proto.checkCamera = function checkCamera() {
@@ -51159,7 +51159,7 @@ vec4 envMapTexelToLinear(vec4 color) {
   				material.map = materialParams.map === undefined ? null : materialParams.map;
 
   				material.lightMap = null;
-  				material.lightMapIntensity = 2.0;
+  				material.lightMapIntensity = 1.0;
 
   				material.aoMap = materialParams.aoMap === undefined ? null : materialParams.aoMap;
   				material.aoMapIntensity = 1.0;
@@ -54485,8 +54485,8 @@ vec4 envMapTexelToLinear(vec4 color) {
       this.drag$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (event) {// console.log('dragService', event);
       });
       var scene = this.scene = new THREE.Scene();
-      var panorama = this.panorama = new Panorama(); //scene.add(panorama.mesh);
-
+      var panorama = this.panorama = new Panorama();
+      scene.add(panorama.mesh);
       var objects = this.objects = new THREE.Group();
       scene.add(objects);
       /*
