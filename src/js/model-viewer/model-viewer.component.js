@@ -71,13 +71,13 @@ export class ModelViewerComponent extends Component {
 		const renderer = this.renderer = new THREE.WebGLRenderer({
 			antialias: true,
 			alpha: true,
-			// physicallyCorrectLights: true,
+			//physicallyCorrectLights: true,
 		});
 		renderer.setClearColor(0x000000, 0);
 		renderer.setPixelRatio(window.devicePixelRatio);
 		renderer.setSize(container.offsetWidth, container.offsetHeight);
 		renderer.toneMapping = THREE.ACESFilmicToneMapping;
-		renderer.toneMappingExposure = 0.8;
+		renderer.toneMappingExposure = 0.5;
 		renderer.outputEncoding = THREE.sRGBEncoding;
 		if (container.childElementCount > 0) {
 			container.insertBefore(renderer.domElement, container.children[0]);
@@ -109,12 +109,12 @@ export class ModelViewerComponent extends Component {
 		const objects = this.objects = new THREE.Group();
 		scene.add(objects);
 
-		/*
-		const light = new THREE.DirectionalLight(0xffffff, 0.5);
-		light.position.set(0, 2, 2);
+		
+		const light = new THREE.DirectionalLight(0xffffff, 2);
+		light.position.set(5, -5, 5);
 		light.target.position.set(0, 0, 0);
 		scene.add(light);
-		*/
+		
 
 		this.resize();
 	}
