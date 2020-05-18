@@ -5,7 +5,7 @@
       "name": "Ring Chair",
       "likes": 82,
       "added": false,
-      "ar": "models/scenevcffx70bmcc1dpym.usdz",
+      "ar": "models/scene9o0rfddh27x4pazo.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
@@ -14,7 +14,7 @@
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "stove/",
-          "gltfFile": "stove.glb"
+          "gltfFile": "modello.glb"
         },
         {
           "id": 32,
