@@ -5,7 +5,7 @@
       "name": "Ring Chair",
       "likes": 82,
       "added": false,
-      "ar": "models/dltJzm_40599vqkaclva9bmodello.usdz",
+      "ar": "models/huSTsb_40599vqkadxbjndmodello.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
@@ -25,7 +25,7 @@
         {
           "id": 34,
           "type": "text",
-          "title": "Dining Chairs",
+          "title": " ",
           "abstract": " ",
           "description": " "
         }

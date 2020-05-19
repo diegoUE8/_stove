@@ -15,7 +15,7 @@ export class ModelViewerComponent extends Component {
 			this.item_ = item;
 			if (item && this.renderer) {
 				this.panorama.loadRgbe(item, this.renderer, (envMap) => {
-					// this.scene.background = envMap;
+					//this.scene.background = envMap;
 					this.scene.environment = envMap;
 					this.render();
 				});
@@ -35,7 +35,7 @@ export class ModelViewerComponent extends Component {
 		this.addListeners();
 		if (this.item) {
 			this.panorama.loadRgbe(this.item, this.renderer, (envMap) => {
-				// this.scene.background = envMap;
+				this.scene.background = envMap;
 				this.scene.environment = envMap;
 				this.render();
 			});
@@ -71,13 +71,13 @@ export class ModelViewerComponent extends Component {
 		const renderer = this.renderer = new THREE.WebGLRenderer({
 			antialias: true,
 			alpha: true,
-			//physicallyCorrectLights: true,
+			physicallyCorrectLights: true,
 		});
 		renderer.setClearColor(0x000000, 0);
 		renderer.setPixelRatio(window.devicePixelRatio);
 		renderer.setSize(container.offsetWidth, container.offsetHeight);
 		renderer.toneMapping = THREE.ACESFilmicToneMapping;
-		renderer.toneMappingExposure = 0.6;
+		renderer.toneMappingExposure = 0.5;
 		renderer.outputEncoding = THREE.sRGBEncoding;
 		if (container.childElementCount > 0) {
 			container.insertBefore(renderer.domElement, container.children[0]);
@@ -110,7 +110,7 @@ export class ModelViewerComponent extends Component {
 		scene.add(objects);
 
 		
-		const light = new THREE.DirectionalLight(0xffffff, 2);
+		const light = new THREE.DirectionalLight(0xffe699, 3);
 		light.position.set(5, -5, 5);
 		light.target.position.set(0, 0, 0);
 		scene.add(light);
