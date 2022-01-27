@@ -1,6 +1,6 @@
 /**
  * @license _stove v1.0.0
- * (c) 2021 Luca Zampetti <lzampetti@gmail.com>
+ * (c) 2022 Luca Zampetti <lzampetti@gmail.com>
  * License: MIT
  */
 
@@ -44,7 +44,7 @@ function _setPrototypeOf(o, p) {
     models: 'models/',
     textures: 'textures/'
   }
-};var STATIC = window.location.port === '41999' || window.location.host === 'actarian.github.io';
+};var STATIC = window.location.port === '41999' || window.location.host === 'diegoUE.github.io';
 var DEVELOPMENT = ['localhost', '127.0.0.1', '0.0.0.0'].indexOf(window.location.host.split(':')[0]) !== -1;var HttpService = /*#__PURE__*/function () {
   function HttpService() {}
 
